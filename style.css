@@ -1,0 +1,76 @@
+body {
+    background-color: #e6ede6;
+    color: #32033a;
+    padding: 3em 1.75em;
+}
+.container {
+    overflow-x: auto;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Newbie-challenges {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Newbie-challenges td,
+#Newbie-challenges th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+#challenges tr:nth-child(even) {
+    background-color: #c5ebe0;
+}
+
+#Newbie-challenges tr:hover {
+    background-color: #ddd;
+}
+
+#Newbie-challenges th {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: center;
+    background-color: #287a71;
+    color: white;
+}
+
+
+#Junior-challenges {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#Junior-challenges td,
+#Junior-challenges th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+#challenges-junior tr:nth-child(odd) {
+    background-color: #cad8f5;
+}
+
+#Junior-challenges tr:hover {
+    background-color: #ddd;
+}
+
+#Junior-challenges th {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: center;
+    background-color: #3d555d;
+    color: white;
+}

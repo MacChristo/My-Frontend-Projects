@@ -1,16 +1,29 @@
 body {
     background-color: #e6ede6;
     color: #32033a;
-    padding: 3em 1.75em;
+    margin: 0;
 }
+
+main {
+    padding: 1em;
+}
+
 .container {
     overflow-x: auto;
 }
 
+#header {
+    color: #970542;
+    padding: 0;
+}
+
 .h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1em 0.75em 0.2em;
+    margin: 0;
 }
 
 .name {
@@ -73,4 +86,71 @@ body {
     text-align: center;
     background-color: #3d555d;
     color: white;
+}
+
+footer {
+    background-color: #c5ebe0;
+    padding: 1em 5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    color: #424485;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background: #11CDD4;
+    border-radius: 0.5em;
+    font-family: sans-serif;
+    color: beige;
+    font-size: 1.25rem;
+    padding: 0.75em 1.25em;
+    text-decoration: none;
+}
+
+.fab {
+    color: green;
+    padding: 0 0.75em;
+    font-weight: 100;
+}
+
+.fas {
+    color: black;
+    font-weight: 100;
+}
+
+#copy-right {
+    text-decoration: none;
+}
+#copy-right:hover {
+    text-decoration: underline;
+    text-shadow: slategray;
+    color: darkslateblue;
+}
+
+.hashtag {
+    color: black;
+    padding: 0;
+}
+.html {
+    color: #d57a06;
+    padding: 0;
+}
+.css {
+    color: lightskyblue;
+    padding: 0;
+}
+
+.tags {
+    padding: 0 1em;
 }

@@ -35,6 +35,13 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    margin: 0 0 3em 0;
+}
+#Newbie-challenges-js {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 3em 0;
 }
 
 #Newbie-challenges td,
@@ -42,12 +49,23 @@ main {
     border: 1px solid #ddd;
     padding: 0.5em;
 }
+#Newbie-challenges-js td,
+#Newbie-challenges-js th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
 
 #challenges tr:nth-child(even) {
     background-color: #c5ebe0;
 }
+#challenges-js tr:nth-child(even) {
+    background-color: #c5ebe0;
+}
 
 #Newbie-challenges tr:hover {
+    background-color: #ddd;
+}
+#Newbie-challenges-js tr:hover {
     background-color: #ddd;
 }
 
@@ -59,6 +77,13 @@ main {
     color: white;
 }
 
+#Newbie-challenges-js th {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: center;
+    background-color: #287a71;
+    color: white;
+}
 
 #Junior-challenges {
     font-family: Arial, Helvetica, sans-serif;
@@ -150,6 +175,11 @@ p {
     color: lightskyblue;
     padding: 0;
 }
+.js {
+    color: #edaf5d;
+    padding: 0;
+}
+
 
 .tags {
     padding: 0 1em;
